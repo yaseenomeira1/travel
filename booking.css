@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Volkhorn', serif;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+}
+:root {
+  --primary-color: #2b81e4;
+  --secondary-color: #eee;
+  --white-color: #fff;
+  --grey-color: #555;
+  --light-grey-color: #777;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-lol{
+    background-color: var(--secondary-color);
+    margin: 3.5rem;
+    box-shadow: 0 1rem 3rem var(--grey-color) ;
+    overflow: hidden;
+    background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
+    url(images/header-bg.jpg) center no-repeat;
+}
+
+
+    .submit{
+        
+        position: absolute;
+        font-size: 4rem;
+        background-color: var(--grey-color);
+        color: var(--white-color);
+        text-align: center;
+        
+    }
+    
+    .submit:hover{
+        background-color: var(--light-grey-color);
+    }
+    
+.goodbye-text{
+    position: relative;
+    font-size: 15rem;
+    top: 2rem;
+} 
+
